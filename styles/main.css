@@ -1,0 +1,67 @@
+body {
+  background-color:#4796D7;
+  font-family: 'Raleway', sans-serif;
+  padding:0;
+  margin:0;
+}
+
+.quote-box {
+  position:relative;
+  margin:8% auto auto auto;
+  padding:40px 50px 35px;
+  width:500px;
+  border:solid white 2px;
+  border-radius:10px;
+  background-color:white;
+  text-align:center;
+  display:table;
+}
+
+.quote-text {
+  font-size:1.75em;
+  text-shadow: 1.2px 1.2px 3px rgba(0,0,0,0.2);
+  
+}
+
+.author-text {
+  font-size:1.1em;
+  text-align:right;
+  margin-right:20px;
+  margin-top:25px;
+  text-shadow: 1.2px 1.2px 3px rgba(0,0,0,0.2);
+}
+
+.button {
+  padding:10px;
+  margin-top:30px;
+  margin-right:20px;
+  background-color:#4796D7;
+  border-radius:2px;
+  text-decoration:none;
+  color:white;
+  font-size:1em;
+  font-family:'Montserrat', sans-serif;
+}
+
+#new-quote {
+  float:right;
+}
+
+#twitter {
+  float:left;
+  padding:7px 10px;
+  font-size:1.3em;
+}
+
+.button:hover {
+  opacity:0.6;
+}
+
+.footer {
+  position:relative;
+  margin:auto;
+  width:500px;
+  font-size:1.2em;
+  text-align:center;
+  color:white;
+}
